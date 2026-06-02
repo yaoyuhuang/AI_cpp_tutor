@@ -1,0 +1,38 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Runtime data and generated artifacts
+conversations.json
+mistakes.json
+learning_profile.json
+outputs/
+runtime_screenshots/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Office temporary lock files
+~$*
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
