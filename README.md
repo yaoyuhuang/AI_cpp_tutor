@@ -45,7 +45,7 @@ AI_cpp_tutor/
 1. 安装 Python 依赖：
 
 ```powershell
-pip install flask openai python-dotenv reportlab pillow
+pip install -r requirements.txt
 ```
 
 2. 配置环境变量，在项目根目录创建 `.env`：
